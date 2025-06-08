@@ -1,1 +1,1 @@
-Repositório com os códigos do trabalho final da disciplina de Projeto Integrador do segundo período do curso de Tecnologia em Inteligência Artificial da Faculdade SENAI FATESG.
+Nesse repositório se encontram os códigos do Backend, Frontend e do dispositivo de monitoramento que configuram o Sistema Inteligente para Monitoramento de Bueiros com Predição. O projeto possui como propósito o desenvolvimento de um sistema integrados que permite o monitoramento remoto do nível de preenchimento de bueiros em diferentes pontos de uma cidade.
