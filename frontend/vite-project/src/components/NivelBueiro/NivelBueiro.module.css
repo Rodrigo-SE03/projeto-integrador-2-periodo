@@ -1,0 +1,55 @@
+   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    height: 100%;
+  }
+  
+  .titulo {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bueiro {
+    position: relative;
+    width: 80px;
+    height: 160px;
+    border: 3px solid #555;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+  }
+  
+  .agua {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1ca7ec;
+    transition: height 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .valor {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 0.25rem;
+  }
+  

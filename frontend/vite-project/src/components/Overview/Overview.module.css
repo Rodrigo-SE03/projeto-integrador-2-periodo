@@ -1,0 +1,165 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: auto;
+  height: 90vh;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.limpo, .parcial, .cheio {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.limpo {
+  background-color: #def5e0;
+  color: #2e7d32; 
+}
+
+.parcial {
+  background-color: #fcf1cd;
+  color: #ff8f00;
+}
+  
+.cheio {
+  background-color: #fccbd2;
+  color: #c62828;
+}
+
+.listaDispositivos {
+  border-radius: 0 0 8px 8px;
+  margin: -8px 0 20px 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  max-height: 180px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.listaDispositivos.limpo {
+  background-color: #cbeed0;
+}
+
+.listaDispositivos.parcial {
+  background-color: #f5e8b5;
+}
+
+.listaDispositivos.cheio {
+  background-color: #f3aeb7;
+}
+
+.listaDispositivos li {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  transition: background-color 0.2s, color 0.2s;
+  font-size: 0.95rem;
+}
+
+.listaDispositivos li:last-child {
+  border-bottom: none;
+}
+
+.listaDispositivos li:hover {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+.linkDispositivo {
+  all: unset;
+}
+
+.expandBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+  
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.listaDispositivos::-webkit-scrollbar {
+  width: 6px;
+}
+
+.listaDispositivos::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.listaDispositivos::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border: none;
+}
+
+.listaDispositivos::-webkit-scrollbar-button {
+  display: none;
+}
+
+.routeButton {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.routeButton:hover {
+    background-color: #0056b3;
+}
+
+.distanciaRota {
+  background-color: #cbd8fc;
+  text-align: center;
+  color: #1a2a4f;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: fit-content;
+  margin: 12px 0;
+}
